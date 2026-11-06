@@ -1,0 +1,28 @@
+[event]
+title = "Your Event"
+slug = "your-event"
+date = "5 November 2026"
+location = "Your City"
+description = "A short introduction to your event."
+accent = "#b8f36d"
+# Optional transparent 1080 × 1920 PNG, relative to this file.
+overlay = ""
+
+[input]
+photos = "photos"
+# Optional link-shared Google Drive folder URL or ID. When set, it supplies the photos.
+drive_folder = ""
+
+[output]
+# Optional existing output folder synced by Google Drive for desktop. Use forward slashes.
+drive_sync_directory = ""
+
+[website]
+# Optional. Use a repository you control and a folder reserved for this event.
+repository = ""
+branch = "main"
+path = "docs/events/your-event"
+
+[captions]
+model = "gpt-6-luna"
+language = "English"
